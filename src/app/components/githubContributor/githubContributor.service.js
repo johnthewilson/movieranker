@@ -1,4 +1,4 @@
-export class GithubContributorService {
+  export class GithubContributorService {
   constructor ($log, $http) {
     'ngInject';
 

@@ -17,7 +17,7 @@ export function MalarkeyDirective(malarkey) {
   function linkFunc(scope, el, attr, vm) {
     let watcher;
     let typist = malarkey(el[0], {
-      typeSpeed: 40,
+      typeSpeed: 100,
       deleteSpeed: 40,
       pauseDelay: 800,
       loop: true,
